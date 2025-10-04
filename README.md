@@ -1,1 +1,0 @@
-# optica25.github.io
