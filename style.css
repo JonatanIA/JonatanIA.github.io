@@ -9,7 +9,7 @@ body {
 }
 
 .logo {
-  height: 60px; /* Ajustá según tu logo */
+  height: 60px;
 }
 
 .navbar-nav .nav-link {
@@ -18,7 +18,7 @@ body {
 }
 
 .icono-nav {
-  width: 35px;   /* tamaño de los iconos personalizados */
+  width: 35px;
   height: auto;
   cursor: pointer;
   transition: transform 0.2s;
@@ -27,7 +27,6 @@ body {
 .icono-nav:hover {
   transform: scale(1.1);
 }
-
 
 .carousel-text {
   background: #000;
@@ -53,9 +52,8 @@ footer p {
   height: auto;
 }
 
-/* Card personalizada */
 .card-custom {
-  background-color: #A0A0A0;   /* fondo gris */
+  background-color: #A0A0A0;  
   border-radius: 25px;
   padding-top: 15px;
   padding-bottom: 25px;
@@ -68,7 +66,7 @@ footer p {
   margin-bottom: -25px;
 }
 
-/* Títulos y textos */
+
 .card-custom .card-title {
   margin-top: 35px;
   font-weight: bold;
@@ -87,7 +85,7 @@ footer p {
   font-size: 19px;
 }
 
-/* Botón de las cards */
+
 .btn-card {
   background: linear-gradient(135deg, #9ee7ff, #b7e5f0);
   border: none;
@@ -101,13 +99,13 @@ footer p {
   margin-top: 95px;
   margin-right: 35px;
   align-items: center;
-  gap: 8px; /* espacio entre texto e ícono */
+  gap: 8px; 
   transition: all 0.3s ease;
   box-shadow: 0 3px 6px rgba(0,0,0,0.2);
 }
 
 .btn-card i {
-  font-size: 18px; /* tamaño ícono carrito */
+  font-size: 18px;
 }
 
 .btn-card:hover {
@@ -116,7 +114,6 @@ footer p {
   box-shadow: 0 5px 10px rgba(0,0,0,0.3);
 }
 
-/* Botón catálogo */
 .catalogo{
   font-size: 35px;
   border-radius: 10px;
@@ -129,12 +126,12 @@ footer p {
   background-color: #A0A0A0;
 }
 
-
 .catalogo:hover {
   background: linear-gradient(135deg, #74d6f5, #b7e5f0);
   transform: translateY(3px);
   box-shadow: 0 6px 12px rgba(0,0,0,0.35);
 }
+
 
 
 
