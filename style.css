@@ -6,6 +6,9 @@ body {
 .navbar {
   background-color: #b7e5f0;
   padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .logo {
@@ -131,6 +134,7 @@ footer p {
   transform: translateY(3px);
   box-shadow: 0 6px 12px rgba(0,0,0,0.35);
 }
+
 
 
 
