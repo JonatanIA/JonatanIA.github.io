@@ -135,6 +135,16 @@ footer p {
   box-shadow: 0 6px 12px rgba(0,0,0,0.35);
 }
 
+.logo-carrusel {
+  width: 200px;     
+  height: 200px; 
+  object-fit: contain; 
+  filter: grayscale(100%);
+}
+
+
+
+
 
 
 
