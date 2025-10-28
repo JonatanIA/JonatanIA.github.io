@@ -1,6 +1,5 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #FFFFFF;
 }
 
 .navbar {
@@ -136,6 +135,7 @@ footer p {
   object-fit: contain; 
   filter: grayscale(100%);
 }
+
 
 
 
