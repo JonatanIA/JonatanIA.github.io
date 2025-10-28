@@ -6,6 +6,9 @@ body {
 .navbar {
   background-color: #b7e5f0;
   padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .logo {
@@ -134,20 +137,13 @@ footer p {
 
 .logo-carrusel {
   width: 200px;     
-  height: 200px;     
+  height: 200px; 
   object-fit: contain; 
   filter: grayscale(100%);
 }
 
-.logo-carrusel:hover {
-  filter: none;
-  transform: scale(1.05);
-}
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  filter: invert(1); /* cambia de blanco a negro */
-}
+
 
 
 
