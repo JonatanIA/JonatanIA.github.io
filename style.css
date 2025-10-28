@@ -4,7 +4,7 @@ body {
 }
 
 .navbar {
-  background-color: #b7e5f0;
+  background-color: #FFFFFF;
   padding: 20px;
   position: sticky;
   top: 0;
@@ -141,6 +141,7 @@ footer p {
   object-fit: contain; 
   filter: grayscale(100%);
 }
+
 
 
 
