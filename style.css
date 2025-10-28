@@ -129,11 +129,6 @@ footer p {
   background-color: #A0A0A0;
 }
 
-.catalogo:hover {
-  background: linear-gradient(135deg, #74d6f5, #b7e5f0);
-  transform: translateY(3px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.35);
-}
 
 .logo-carrusel {
   width: 200px;     
@@ -141,6 +136,7 @@ footer p {
   object-fit: contain; 
   filter: grayscale(100%);
 }
+
 
 
 
