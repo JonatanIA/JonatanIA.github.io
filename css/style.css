@@ -126,17 +126,8 @@ footer p {
   padding-right: 50px;
   font-weight: bold;
   background-color: #A0A0A0;
+  border: none; 
 }
-
-
-.logo-carrusel {
-  width: 200px;     
-  height: 200px; 
-  object-fit: contain; 
-  filter: grayscale(100%);
-}
-
-
 
 
 
