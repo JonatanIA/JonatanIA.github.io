@@ -110,11 +110,6 @@ footer p {
   font-size: 18px;
 }
 
-.btn-card:hover {
-  background: linear-gradient(135deg, #74d6f5, #9ee7ff);
-  transform: translateY(-2px);
-  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
-}
 
 .catalogo{
   font-size: 35px;
