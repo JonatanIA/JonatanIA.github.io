@@ -79,7 +79,6 @@ footer p {
 
 .btn-card {
   background: linear-gradient(135deg, #9ee7ff, #b7e5f0);
-  border: none;
   border-radius: 12px;
   font-weight: bold;
   padding: 10px 18px;
@@ -95,6 +94,7 @@ footer p {
   box-shadow: 0 3px 6px rgba(0,0,0,0.2);
 }
 
+<<<<<<< HEAD
 .position-relative img {
   transition: transform 0.5s ease;
 }
@@ -109,6 +109,30 @@ footer p {
   height: 200px; 
   object-fit: contain; 
   filter: grayscale(100%);
+=======
+.btn-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0,0,0,0.25);
+}
+
+
+.btn-card i {
+  font-size: 18px;
+}
+
+
+.catalogo{
+  font-size: 30px;
+  border-radius: 10px;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: -35px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: bold;
+  background-color: #A0A0A0;
+  border: none; 
+>>>>>>> 832ecef301cc06388aa97e88c488271223bd9c01
 }
 
 .card-img-top {
@@ -118,8 +142,6 @@ footer p {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
 }
-
-
 
 
 
