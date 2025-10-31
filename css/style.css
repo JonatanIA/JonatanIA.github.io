@@ -94,22 +94,6 @@ footer p {
   box-shadow: 0 3px 6px rgba(0,0,0,0.2);
 }
 
-<<<<<<< HEAD
-.position-relative img {
-  transition: transform 0.5s ease;
-}
-
-.position-relative:hover img {
-  transform: scale(1.05);
-}
-
-
-.logo-carrusel {
-  width: 200px;     
-  height: 200px; 
-  object-fit: contain; 
-  filter: grayscale(100%);
-=======
 .btn-card:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 10px rgba(0,0,0,0.25);
@@ -132,7 +116,6 @@ footer p {
   font-weight: bold;
   background-color: #A0A0A0;
   border: none; 
->>>>>>> 832ecef301cc06388aa97e88c488271223bd9c01
 }
 
 .card-img-top {
