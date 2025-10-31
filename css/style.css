@@ -39,7 +39,7 @@ body {
 }
 
 footer {
-  background-color: #A0A0A0;
+  background-color: #BDF4FF;
   color: #000000;
   padding: 26px 0;
   font-size: 14px;
@@ -55,15 +55,16 @@ footer p {
 }
 
 .card-custom {
-  background-color: #A0A0A0;  
-  border-radius: 25px;
+  background-color: #ededed;  
+  border-radius: 10%;
   padding-top: 15px;
   padding-bottom: 25px;
 }
 
 .card-custom img {
   width: 85%;
-  margin-left: 33px;
+  margin-left: 5%;
+  margin-right: 5%;
   border-radius: 15px;
   margin-bottom: -25px;
 }
@@ -75,18 +76,6 @@ footer p {
   font-size: 20px;
   margin-left: 55px;
 }
-
-.card-custom .card-subtitle {
-  margin-left: 55px;
-  font-size: 18px;
-}
-
-.card-custom .precio {
-  margin-left: 55px;
-  font-weight: bold;
-  font-size: 19px;
-}
-
 
 .btn-card {
   background: linear-gradient(135deg, #9ee7ff, #b7e5f0);
@@ -106,26 +95,12 @@ footer p {
   box-shadow: 0 3px 6px rgba(0,0,0,0.2);
 }
 
-.btn-card i {
-  font-size: 18px;
+.position-relative img {
+  transition: transform 0.5s ease;
 }
 
-.btn-card:hover {
-  background: linear-gradient(135deg, #74d6f5, #9ee7ff);
-  transform: translateY(-2px);
-  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
-}
-
-.catalogo{
-  font-size: 35px;
-  border-radius: 10px;
-  padding: 12px;
-  margin-top: 10px;
-  margin-bottom: -35px;
-  padding-left: 70px;
-  padding-right: 70px;
-  font-weight: bold;
-  background-color: #A0A0A0;
+.position-relative:hover img {
+  transform: scale(1.05);
 }
 
 
@@ -136,6 +111,13 @@ footer p {
   filter: grayscale(100%);
 }
 
+.card-img-top {
+  height: 220px; /* ajustá el alto que más te guste */
+  object-fit: cover; /* recorta sin deformar */
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
 
 
 
