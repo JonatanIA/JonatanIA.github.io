@@ -129,8 +129,32 @@ footer p {
 }
 
 
+  @media (max-width: 576px) {
+    .faq-container {
+      width: 50% !important;
+      margin: 0 auto;
+    }
+  }
 
 
+  @media(min-width: 576) {}
+
+  @media(min-width: 768px) {
+    .position-absolute-fix{
+      position: absolute !important;
+    }
+  }
+
+@media(min-width: 992px){
+  .position-absolute-fix{
+    position: absolute !important;
+  }
+}
+@media(min-width: 1200px){
+  .position-absolute-fix{
+    position: absolute !important;
+  }
+}
 
 
 

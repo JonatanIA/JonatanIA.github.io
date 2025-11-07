@@ -15,7 +15,7 @@
   <div class="container-fluid position-relative">
 
     <!-- Botón hamburguesa (izquierda en móvil) -->
-    <button class="navbar-toggler border-0 position-absolute start-0 ms-2" type="button"
+    <button class="navbar-toggler border-0 position-absolute-fix start-0 ms-2" type="button"
       data-bs-toggle="collapse" data-bs-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -27,7 +27,7 @@
     </a>
 
     <!-- Íconos (derecha en móvil) -->
-    <div class="position-absolute end-0 me-3 d-flex align-items-center">
+    <div class="position-absolute-fix end-0 me-3 d-flex align-items-center">
       <a href="#"><img src="imagenes/buscar.png" class="icono-nav me-3" alt="Buscar" style="width:24px;"></a>
       <a href="#"><img src="imagenes/carrito.png" class="icono-nav" alt="Carrito" style="width:24px;"></a>
     </div>
@@ -37,7 +37,7 @@
       <ul class="navbar-nav mb-2 mb-lg-0 text-center">
         <li class="nav-item"><a class="nav-link fw-semibold" href="index.html">Inicio</a></li>
         <li class="nav-item"><a class="nav-link fw-semibold" href="nosotros.html">Nosotros</a></li>
-        <li class="nav-item"><a class="nav-link fw-semibold" href="turnos.html">Turnos</a></li>
+        <li class="nav-item"><a class="nav-link fw-semibold" href="turnos.html">Servicios</a></li>
         <li class="nav-item"><a class="nav-link fw-semibold" href="catalogo.html">Catálogo</a></li>
       </ul>
     </div>
@@ -58,16 +58,24 @@
 </div>
 
 
-<section class="py-5 text-center" style="background-color: #f2f2f2;">
+<section class="py-5" style="background-color: #f2f2f2;">
   <div class="container">
-    <h2 class="fw-bold mb-3">Quiénes Somos</h2>
-    <p class="lead text-muted mx-auto" style="max-width: 800px;">
-      En <strong>Óptica Nova</strong> creemos que cada mirada cuenta. Somos un equipo apasionado por el bienestar visual,
-      comprometidos con brindar la mejor atención personalizada, tecnología de vanguardia y una amplia gama de productos
-      para cuidar tu vista con estilo y confianza. Nuestra misión es ofrecer una experiencia visual única para cada cliente.
-    </p>
+    <div class="row align-items-center">
+      <div class="col-12 col-md-6 text-center text-md-start">
+        <h2 class="fw-bold mb-3">Quiénes Somos</h2>
+        <p class="lead text-muted">
+          En <strong>Óptica Nova</strong> creemos que cada mirada cuenta. Somos un equipo apasionado por el bienestar visual,
+          comprometidos con brindar la mejor atención personalizada, tecnología de vanguardia y una amplia gama de productos
+          para cuidar tu vista con estilo y confianza. Nuestra misión es ofrecer una experiencia visual única para cada cliente.
+        </p>
+      </div>
+      <div class="col-12 col-md-6 mb-4 mb-md-0 text-center">
+        <img src="./imagenes/opticaOpium.webp" alt="Óptica Nova" class="img-fluid rounded shadow-sm" style="max-height: 350px; object-fit: cover;">
+      </div>
+    </div>
   </div>
 </section>
+
 
 
 <section class="py-5">
@@ -103,13 +111,13 @@
 </section>
 
 <section class="py-5 bg-light">
-  <div class="container" style="width: 50%;">
+  <div class="container faq-container">
     <div class="text-center mb-5">
-      <p class="text-uppercase text-muted mb-1">¿Necesitás ayuda?</p>
-      <h2 class="fw-bold">Preguntas Frecuentes</h2>
+      <h2 class="fw-bold">¿Necesitás ayuda?</h2>
     </div>
 
     <div class="accordion accordion-flush" id="accordionFAQ">
+      <!-- Item 1 -->
       <div class="accordion-item border-bottom">
         <h2 class="accordion-header" id="faq1">
           <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
@@ -125,6 +133,7 @@
         </div>
       </div>
 
+      <!-- Item 2 -->
       <div class="accordion-item border-bottom">
         <h2 class="accordion-header" id="faq2">
           <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
@@ -139,6 +148,7 @@
         </div>
       </div>
 
+      <!-- Item 3 -->
       <div class="accordion-item border-bottom">
         <h2 class="accordion-header" id="faq3">
           <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
@@ -153,6 +163,7 @@
         </div>
       </div>
 
+      <!-- Item 4 -->
       <div class="accordion-item border-bottom">
         <h2 class="accordion-header" id="faq4">
           <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
@@ -170,43 +181,51 @@
   </div>
 </section>
 
+<section class="py-5 bg-light">
+  <div class="container">
+    <h3 class="fw-bold text-center mb-5">Lo que dicen nuestros clientes</h3>
 
-<section class="py-5 bg-white border-bottom border-secondary ">
-  <div class="container text-center">
-    <h3 class="fw-bold mb-4">Nuestras Marcas</h3>
-
-    <div id="carouselMarcas" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-      <div class="carousel-inner">
-
-        <div class="carousel-item active">
-          <img src="./imagenes/ray_ban_logo.png" class="d-block mx-auto logo-carrusel" alt="Ray-Ban">
+    <div class="row g-4 justify-content-center">
+      <!-- Reseña 1 -->
+      <div class="col-12 col-md-4">
+        <div class="card shadow-sm border-0 h-100">
+          <div class="card-body text-center">
+            <img src="./imagenes/cliente5.webp" alt="Cliente 1" class="rounded-circle mb-3" width="80" height="80">
+            <h6 class="fw-bold">María López</h6>
+            <p class="text-muted small mb-2">⭐⭐⭐⭐⭐</p>
+            <p class="text-muted">Excelente atención y una gran variedad de lentes. Me ayudaron a encontrar el modelo perfecto para mí.</p>
+          </div>
         </div>
-
-
-        <div class="carousel-item">
-          <img src="./imagenes/oakley.png" class="d-block mx-auto logo-carrusel" alt="Oakley">
-        </div>
-
-        <div class="carousel-item">
-          <img src="./imagenes/sergioT.png" class="d-block mx-auto logo-carrusel" alt="Sergio Tacchini">
-        </div>
-
       </div>
 
+      <!-- Reseña 2 -->
+      <div class="col-12 col-md-4">
+        <div class="card shadow-sm border-0 h-100">
+          <div class="card-body text-center">
+            <img src="imagenes/cliente2.webp" alt="Cliente 2" class="rounded-circle mb-3" width="80" height="80">
+            <h6 class="fw-bold">Carlos Méndez</h6>
+            <p class="text-muted small mb-2">⭐⭐⭐⭐</p>
+            <p class="text-muted">Muy buena experiencia, personal amable y precios competitivos. Los recomiendo sin dudas.</p>
+          </div>
+        </div>
+      </div>
 
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselMarcas" data-bs-slide="prev">
-  <span aria-hidden="true" class="fs-1 text-dark">&#10094;</span> <!-- flecha izquierda -->
-  <span class="visually-hidden">Anterior</span>
-</button>
-
-<button class="carousel-control-next" type="button" data-bs-target="#carouselMarcas" data-bs-slide="next">
-  <span aria-hidden="true" class="fs-1 text-dark">&#10095;</span> <!-- flecha derecha -->
-  <span class="visually-hidden">Siguiente</span>
-</button>
-
+      <!-- Reseña 3 -->
+      <div class="col-12 col-md-4">
+        <div class="card shadow-sm border-0 h-100">
+          <div class="card-body text-center">
+            <img src="imagenes/cliente1.jpg" alt="Cliente 3" class="rounded-circle mb-3" width="80" height="80">
+            <h6 class="fw-bold">Lucía Fernández</h6>
+            <p class="text-muted small mb-2">⭐⭐⭐⭐⭐</p>
+            <p class="text-muted">Me encantó la calidad de los productos y el asesoramiento personalizado que brindan.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
+
+
 
 <!-- SECCIÓN BENEFICIOS -->
 <section class="py-5 bg-white mt-3">
@@ -224,7 +243,7 @@
           <h6 class="text-uppercase fw-normal">Atención personalizada</h6>
         </div>
         <div class="carousel-item">
-          <img src="./imagenes/card-emulator-pro-svgrepo-com.svg" class="icono-nav mb-2" alt="">
+          <img src="./imagenes/card-svgrepo-com.svg" class="icono-nav mb-2" alt="">
           <h6 class="text-uppercase fw-normal">Pagos seguros</h6>
         </div>
         <div class="carousel-item">
@@ -245,7 +264,7 @@
         <h6 class="text-uppercase fw-normal" style="letter-spacing: 1px;">Atención personalizada</h6>
       </div>
       <div class="col-md-3">
-        <img class="icono-nav me-3" src="./imagenes/card-emulator-pro-svgrepo-com.svg">
+        <img class="icono-nav me-3" src="./imagenes/card-svgrepo-com.svg">
         <h6 class="text-uppercase fw-normal" style="letter-spacing: 1px;">Pagos seguros</h6>
       </div>
       <div class="col-md-3">
