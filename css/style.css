@@ -158,7 +158,7 @@ footer p {
 
 
 @media (min-width: 768px) {
-  .mapa-ubicacion {
+  .mapa {
     margin-top: -40px; 
   }
 }
