@@ -157,6 +157,14 @@ footer p {
 }
 
 
+@media (min-width: 768px) {
+  .mapa-ubicacion {
+    margin-top: -40px; 
+  }
+}
+
+
+
 .accordion-button:not(.collapsed){
   background-color: #BDF4FF !important;
   border-color: #BDF4FF;
