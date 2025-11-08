@@ -159,6 +159,7 @@ footer p {
 
 .accordion-button:not(.collapsed){
   background-color: #BDF4FF !important;
+  border-color: #BDF4FF;
 }
 
 
