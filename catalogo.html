@@ -32,23 +32,27 @@
       <a href="#" data-bs-toggle="modal" data-bs-target="#modalBusqueda">
   <img src="imagenes/buscar.png" class="icono-nav me-3" alt="Buscar" style="width:24px;">
 </a>
-      <div class="modal fade" id="modalBusqueda" tabindex="-1" aria-labelledby="modalBusquedaLabel" aria-hidden="true">
+     <div class="modal fade" id="modalBusqueda" data-bs-backdrop="false" tabindex="-1" aria-labelledby="modalBusquedaLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
+      
       <div class="modal-header border-0">
         <h5 class="modal-title fw-semibold" id="modalBusquedaLabel">Buscar productos</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
       </div>
+
       <div class="modal-body">
         <input type="text" class="form-control" placeholder="Escribí lo que querés buscar..." autofocus>
       </div>
+
       <div class="modal-footer border-0">
-        <button type="button" class="btn btn-dark w-100">Buscar</button>
+        <button type="button" class="btn btn-dark w-100" data-bs-dismiss="modal">Cerrar</button>
       </div>
 
     </div>
   </div>
 </div>
+
       <a href="#"><img src="imagenes/carrito.png" class="icono-nav" alt="Carrito" style="width:24px;"></a>
     </div>
 
