@@ -162,4 +162,8 @@ footer p {
   border-color: #BDF4FF;
 }
 
+.modal-backdrop.show {
+  opacity: 0 !important;
+}
+
 
