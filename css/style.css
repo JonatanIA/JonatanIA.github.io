@@ -156,14 +156,6 @@ footer p {
   }
 }
 
-
-@media (min-width: 768px) {
-  .mapa {
-    margin-top: -40px; 
-  }
-}
-
-
 h3 {
   padding-bottom: 60px;
 }
