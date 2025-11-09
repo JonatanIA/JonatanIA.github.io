@@ -169,14 +169,12 @@ footer p {
     transition: all 0.3s ease;
   }
 
-  /* Altura igualada por JS (backup en desktop) */
   @media (min-width: 768px) {
     #carouselClientes .card {
       min-height: 340px;
     }
   }
 
-  /* Centrado */
   #carouselClientes .carousel-inner {
     display: flex;
     align-items: center;
@@ -192,9 +190,9 @@ footer p {
 
   .carousel-control-prev,
 .carousel-control-next {
-  width: auto;             /* elimina ancho fijo */
-  padding: 0 12px;         /* espacio lateral */
-  opacity: 1 !important;   /* siempre visibles */
+  width: auto;             
+  padding: 0 12px;         
+  opacity: 1 !important;   
   text-shadow: none !important;
 }
 
@@ -217,7 +215,7 @@ footer p {
     padding-right: 35px;
   }
 }
-/* === Mover las flechas fuera de las cards === */
+
 #carouselClientes .carousel-control-prev {
   left: -40px !important;
 }
@@ -226,17 +224,16 @@ footer p {
   right: -40px !important;
 }
 
-/* === Mostrar solo una card por slide en pantallas pequeñas === */
 @media (max-width: 576px) {
   #carouselClientes .carousel-item .col-12 {
-    display: none; /* Oculta todas las cards */
+    display: none; 
   }
 
   #carouselClientes .carousel-item.active .col-12:nth-child(1) {
-    display: block; /* Muestra solo la primera card del slide activo */
+    display: block; 
   }
 
-  /* Centramos la card visible */
+  
   #carouselClientes .carousel-item .row {
     justify-content: center !important;
   }
@@ -247,7 +244,7 @@ footer p {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* Ajuste para pantallas pequeñas */
+
 @media (max-width: 576px) {
   .mapa iframe {
     height: 300px;
