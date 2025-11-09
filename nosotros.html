@@ -205,48 +205,94 @@
 </section>
 
 <section class="py-5 bg-light">
-  <div class="container">
-    <h3 class="fw-bold text-center mb-5">Clientes</h3>
+  <div class="container position-relative">
+    <h3 class="fw-bold text-center mb-4">Clientes</h3>
 
-    <div class="row g-4 justify-content-center">
-      <!-- Reseña 1 -->
-      <div class="col-12 col-md-4">
-        <div class="card shadow-sm border-0 h-100">
-          <div class="card-body text-center">
-            <img src="./imagenes/cliente5.webp" alt="Cliente 1" class="rounded-circle mb-3" width="80" height="80">
-            <h6 class="fw-bold">María López</h6>
-            <p class="text-muted small mb-2">⭐⭐⭐⭐⭐</p>
-            <p class="text-muted">Excelente atención y una gran variedad de lentes. Me ayudaron a encontrar el modelo perfecto para mí.</p>
+    <div id="carouselClientes" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- === SLIDE 1 === -->
+        <div class="carousel-item active">
+          <div class="row g-4 justify-content-center">
+            <div class="col-12 col-sm-12 col-md-4">
+              <div class="card h-100 border-0 text-center p-3">
+                <img src="imagenes/cliente5.webp" alt="Cliente 1" class="rounded-circle mx-auto mb-3" width="80" height="80">
+                <h6 class="fw-bold">María López</h6>
+                <p class="text-muted small mb-2">⭐⭐⭐⭐⭐</p>
+                <p class="text-muted">Excelente atención y una gran variedad de lentes. Me ayudaron a encontrar el modelo perfecto para mí.</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4">
+              <div class="card h-100 border-0 text-center p-3">
+                <img src="imagenes/cliente2.webp" alt="Cliente 2" class="rounded-circle mx-auto mb-3" width="80" height="80">
+                <h6 class="fw-bold">Carlos Méndez</h6>
+                <p class="text-muted small mb-2">⭐⭐⭐⭐</p>
+                <p class="text-muted">Muy buena experiencia, personal amable y precios competitivos. Los recomiendo sin dudas.</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4">
+              <div class="card h-100 border-0 text-center p-3">
+                <img src="imagenes/cliente1.jpg" alt="Cliente 3" class="rounded-circle mx-auto mb-3" width="80" height="80">
+                <h6 class="fw-bold">Lucía Fernández</h6>
+                <p class="text-muted small mb-2">⭐⭐⭐⭐⭐</p>
+                <p class="text-muted">Me encantó la calidad de los productos y el asesoramiento personalizado que brindan.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- === SLIDE 2 === -->
+        <div class="carousel-item">
+          <div class="row g-4 justify-content-center">
+            <div class="col-12 col-sm-12 col-md-4">
+              <div class="card h-100 border-0 text-center p-3">
+                <img src="imagenes/cliente9.jpg" alt="Cliente 4" class="rounded-circle mx-auto mb-3" width="80" height="80">
+                <h6 class="fw-bold">Javier Ortega</h6>
+                <p class="text-muted small mb-2">⭐⭐⭐⭐⭐</p>
+                <p class="text-muted">Atención rápida y productos de excelente calidad. Sin duda volveré a comprar.</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4">
+              <div class="card h-100 border-0 text-center p-3">
+                <img src="imagenes/clienta1.jpg" alt="Cliente 5" class="rounded-circle mx-auto mb-3" width="80" height="80">
+                <h6 class="fw-bold">Ana Torres</h6>
+                <p class="text-muted small mb-2">⭐⭐⭐⭐</p>
+                <p class="text-muted">Me asesoraron muy bien para elegir mis lentes. Muy contenta con la compra.</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4">
+              <div class="card h-100 border-0 text-center p-3">
+                <img src="imagenes/cliente8.jpg" alt="Cliente 6" class="rounded-circle mx-auto mb-3" width="80" height="80">
+                <h6 class="fw-bold">Fernando Ruiz</h6>
+                <p class="text-muted small mb-2">⭐⭐⭐⭐⭐</p>
+                <p class="text-muted">Excelente trato y gran variedad de modelos. Recomiendo totalmente la tienda.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- Reseña 2 -->
-      <div class="col-12 col-md-4">
-        <div class="card shadow-sm border-0 h-100">
-          <div class="card-body text-center">
-            <img src="imagenes/cliente2.webp" alt="Cliente 2" class="rounded-circle mb-3" width="80" height="80">
-            <h6 class="fw-bold">Carlos Méndez</h6>
-            <p class="text-muted small mb-2">⭐⭐⭐⭐</p>
-            <p class="text-muted">Muy buena experiencia, personal amable y precios competitivos. Los recomiendo sin dudas.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Reseña 3 -->
-      <div class="col-12 col-md-4">
-        <div class="card shadow-sm border-0 h-100">
-          <div class="card-body text-center">
-            <img src="imagenes/cliente1.jpg" alt="Cliente 3" class="rounded-circle mb-3" width="80" height="80">
-            <h6 class="fw-bold">Lucía Fernández</h6>
-            <p class="text-muted small mb-2">⭐⭐⭐⭐⭐</p>
-            <p class="text-muted">Me encantó la calidad de los productos y el asesoramiento personalizado que brindan.</p>
-          </div>
-        </div>
+      <!-- Controles -->
+      
+      <button class="carousel-control-prev position-absolute top-50 start-0 translate-middle-y" type="button" data-bs-target="#carouselClientes" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-dark  p-3" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      
+      <button class="carousel-control-next position-absolute top-50 end-0 translate-middle-y" type="button" data-bs-target="#carouselClientes" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-dark p-3"  aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+ 
+      <!-- Indicadores -->
+      <div class="carousel-indicators mt-4">
+        <button type="button" data-bs-target="#carouselClientes" data-bs-slide-to="0" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#carouselClientes" data-bs-slide-to="1"></button>
       </div>
     </div>
   </div>
 </section>
+
 
 
 
@@ -318,6 +364,7 @@
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
 
 
 
