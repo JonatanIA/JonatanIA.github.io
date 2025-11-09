@@ -121,8 +121,8 @@ footer p {
 }
 
 .card-img-top {
-  height: 220px; /* ajustá el alto que más te guste */
-  object-fit: cover; /* recorta sin deformar */
+  height: 220px; 
+  object-fit: cover; 
   width: 100%;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
@@ -155,11 +155,6 @@ footer p {
     position: absolute !important;
   }
 }
-
-h3 {
-  padding-bottom: 60px;
-}
-
 
 .accordion-button:not(.collapsed){
   background-color: #BDF4FF !important;
