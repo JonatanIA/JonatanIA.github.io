@@ -170,4 +170,91 @@ h3 {
   opacity: 0 !important;
 }
 
+  #carouselClientes .card {
+    transition: all 0.3s ease;
+  }
+
+  /* Altura igualada por JS (backup en desktop) */
+  @media (min-width: 768px) {
+    #carouselClientes .card {
+      min-height: 340px;
+    }
+  }
+
+  /* Centrado */
+  #carouselClientes .carousel-inner {
+    display: flex;
+    align-items: center;
+  }
+    @media (max-width: 576px) {
+    .carousel-item .col-md-4 {
+      display: none;
+    }
+    .carousel-item .col-12:first-child {
+      display: block !important;
+    }
+  }
+
+  .carousel-control-prev,
+.carousel-control-next {
+  width: auto;             /* elimina ancho fijo */
+  padding: 0 12px;         /* espacio lateral */
+  opacity: 1 !important;   /* siempre visibles */
+  text-shadow: none !important;
+}
+
+.carousel-control-prev span,
+.carousel-control-next span {
+  color: #000;             /* flechas negras */
+  transition: color 0.2s;
+}
+
+.carousel-control-prev:hover span,
+.carousel-control-next:hover span {
+  color: #333;             /* tono más oscuro al hover */
+}
+
+@media (max-width: 576px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: 45%; /* leve ajuste vertical */
+  }
+}
+/* === Mover las flechas fuera de las cards === */
+#carouselClientes .carousel-control-prev {
+  left: -40px !important;
+}
+
+#carouselClientes .carousel-control-next {
+  right: -40px !important;
+}
+
+/* === Mostrar solo una card por slide en pantallas pequeñas === */
+@media (max-width: 576px) {
+  #carouselClientes .carousel-item .col-12 {
+    display: none; /* Oculta todas las cards */
+  }
+
+  #carouselClientes .carousel-item.active .col-12:nth-child(1) {
+    display: block; /* Muestra solo la primera card del slide activo */
+  }
+
+  /* Centramos la card visible */
+  #carouselClientes .carousel-item .row {
+    justify-content: center !important;
+  }
+}
+
+.mapa iframe {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Ajuste para pantallas pequeñas */
+@media (max-width: 576px) {
+  .mapa iframe {
+    height: 300px;
+  }
+}
+
 
