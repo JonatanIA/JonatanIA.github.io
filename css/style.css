@@ -205,19 +205,21 @@ h3 {
 
 .carousel-control-prev span,
 .carousel-control-next span {
-  color: #000;             /* flechas negras */
+  color: #000;             
   transition: color 0.2s;
 }
 
 .carousel-control-prev:hover span,
 .carousel-control-next:hover span {
-  color: #333;             /* tono más oscuro al hover */
+  color: #333;             
 }
 
 @media (max-width: 576px) {
   .carousel-control-prev,
   .carousel-control-next {
-    top: 45%; /* leve ajuste vertical */
+    top: 45%; 
+    padding-left: 35px;
+    padding-right: 35px;
   }
 }
 /* === Mover las flechas fuera de las cards === */
